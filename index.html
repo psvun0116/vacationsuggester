@@ -12,141 +12,142 @@
       <h1>Vacation Suggester</h1>
         <h2>See which destination best fits your needs!</h2>
 
-    <form id="vacation">
-      <h3>Who would you like to go on a vacation with?</h3>
+      <form id="vacation">
+        <h3>Who would you like to go on a vacation with?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="person" value="solo">Solo, by myself.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="person" value="partner">Partner, Husband/Wife, Boyfriend/Girlfriend
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="person" value="family">Family, children included
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="person" value="friends">Family and/or Friends (Adults only)
+            </label>
+          </div>
+
+        <h3>Type of trip:</h3>
         <div class="radio">
           <label>
-            <input type="radio" name="person" value="solo">Solo, by myself.
+            <input type="radio" name="trip" value="family">Family
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="person" value="partner">Partner, Husband/Wife, Boyfriend/Girlfriend
+            <input type="radio" name="trip" value="weekend">Weekend
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="person" value="family">Family, children included
+            <input type="radio" name="trip" value="camping">Camping
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="person" value="friends">Family and/or Friends (Adults only)
+            <input type="radio" name="trip" value="holiday">Holiday
           </label>
         </div>
 
-      <h3>Type of trip:</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="trip" value="family">Family
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="trip" value="weekend">Weekend
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="trip" value="camping">Camping
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="trip" value="holiday">Holiday
-        </label>
-      </div>
+        <h3>Which activity do you more look forward to on a vacation?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="park">Amusement Parks
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="nightlife">Night Life
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="beach">Beach
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="siteseeing">Sightseeing
+          </label>
+        </div>
 
-      <h3>Which activity do you more look forward to on a vacation?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="park">Amusement Parks
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="nightlife">Night Life
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="beach">Beach
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="siteseeing">Sightseeing
-        </label>
-      </div>
+        <h3>What is your least favorite activity?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="least" value="park">Amusement Parks
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="least" value="nightlife">Night Life
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="least" value="beach">Beach
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="least" value="siteseeing">Sightseeing
+          </label>
+        </div>
 
-      <h3>What is your least favorite activity?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="least" value="park">Amusement Parks
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="least" value="nightlife">Night Life
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="least" value="beach">Beach
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="least" value="siteseeing">Sightseeing
-        </label>
-      </div>
+        <h3>Activity Level:</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="level" value="relaxed">Relaxed
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="level" value="easy">Easy Active
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="level" value="active">Active
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="level" value="beyond">Beyond active
+          </label>
+        </div>
 
-      <h3>Activity Level:</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="level" value="relaxed">Relaxed
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="level" value="easy">Easy Active
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="level" value="active">Active
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="level" value="beyond">Beyond active
-        </label>
-      </div>
+        <h3>What do you prefer:</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="prefer" value="seperate">Do things yourself
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="prefer" value="group">Within your group
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="prefer" value="guided">Tour Guide
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="prefer" value="none">Not Applicable
+          </label>
+        </div>
 
-      <h3>What do you prefer:</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="prefer" value="seperate">Do things yourself
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="prefer" value="group">Within your group
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="prefer" value="guided">Tour Guide
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="prefer" value="none">Not Applicable
-        </label>
-      </div>
-
-      <button type="submit" class="btn-success">Submit!</button>
-    </form>
+        <button type="submit" class="btn-success">Submit!</button>
+      </form>
+    </div>
 
     <div id="disney">
       <h4>Disney Land</h4>
@@ -186,6 +187,5 @@
         <p>““No alien land in all the world has any deep strong charm for me but that one (Maui), no other land could so longingly and so beseechingly haunt me, sleeping and waking, through half a lifetime, as that one has done. Other things leave me, but it abides; other things change, but it remains the same. For me the balmy airs are always blowing, its summer seas flashing in the sun; the pulsing of its surfbeat is in my ear; I can see its garlanded crags, its leaping cascades, its plumy palms drowsing by the shore, its remote summits floating like islands above the cloud wrack; I can feel the spirit of its wildland solitudes, I can hear the splash of its brooks; in my nostrils still lives the breath of flowers that perished twenty years ago."</p>
           <footer>Mark Twain, Mark Twain in Hawaii: Roughing It in the Sandwich Islands, Hawaii in the 1860's</footer>
       </blockquote>
-    </div>
   </body>
 </html>
