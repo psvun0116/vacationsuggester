@@ -20,6 +20,13 @@ $(document).ready(function() {
                   if (prefer === 'seperate' || prefer === 'group' || prefer === 'guided'){
                     $("#vegas").show()
           }
+          if (person === 'solo' || person === 'child' || person === 'adult')
+            if (trip === 'weekend' || trip === 'holiday' || trip === 'camping')
+              if (activity === 'beach')
+                if (level === 'easy' || level ==='active' || level ==='beyond')
+                  if (prefer === 'seperate' || prefer === 'group' || prefer === 'guided'){
+                    $("#hawaii").show()
+          }
 
     event.preventDefault();
 
