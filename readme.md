@@ -1,4 +1,4 @@
-# Paula's Portfolio
+# Vacation Suggester
 
 #### _Vacation Suggester for Epicodus, February 24, 2019_
 
