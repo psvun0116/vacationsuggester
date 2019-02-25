@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is web page for a vacation suggester. It ask a series of 5 different questions to which it will direct you to 5 possible answers; 4 different destinations or an error alert to try again. Applied previous knowledge of HTML, CSS, and Bootstrap. Currently have learned Javascript and jQuery.
+_This is web page for a vacation suggester. It ask a series of 5 different questions to which it will direct you to 5 possible answers; 4 different destinations or an error alert to try again. Applied previous knowledge of HTML, CSS, and Bootstrap. Currently have learned Javascript and jQuery._
 ## Setup/Installation Requirements
 
 * _Clone/download link from Github repository_
