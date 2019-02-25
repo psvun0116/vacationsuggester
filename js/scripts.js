@@ -6,6 +6,12 @@ $(document).ready(function() {
     var level = $("input:radio[name=level]:checked").val();
     var prefer = $("input:radio[name=prefer]:checked").val();
 
+    if (person === 'solo' || person === 'child' || person === 'adult')
+      if (trip === 'weekend' || trip === 'holiday')
+        if (activity === 'park')
+         if (level === 'easy' || level ==='active' || level ==='beyond')
+          if (prefer === 'seperate' || prefer === 'group' || prefer === 'guided'){
+            $("#disney").show()
 
     event.preventDefault();
 
